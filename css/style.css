@@ -1,0 +1,50 @@
+h1 {
+  color: red;
+  font-size: 25px;
+}
+h1,
+p {
+  color: red;
+}
+
+#main-header {
+  color: red;
+}
+
+body .basic {
+  color: cornflowerblue;
+  font-size: 80px;
+}
+
+body header nav h1 {
+  color: darkblue;
+}
+
+nav h1.b1 {
+  background-color: brown;
+}
+
+header > p {
+  background-color: black;
+}
+
+a:hover {
+  color: blue;
+  background-color: brown;
+}
+
+header nav p#f1 {
+  background-color: blue;
+}
+
+header nav p#f1:hover {
+  background-color: red;
+}
+
+p:first-of-type {
+  background-color: chartreuse;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
