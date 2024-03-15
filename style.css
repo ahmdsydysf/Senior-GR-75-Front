@@ -1,0 +1,19 @@
+:root {
+  --main-clr: red;
+}
+
+.red {
+  background-color: var(--main-clr);
+}
+
+.green {
+  background-color: #0f0;
+}
+
+.blue {
+  background-color: #00f;
+}
+
+.yell {
+  background-color: rgb(246, 255, 0);
+}
