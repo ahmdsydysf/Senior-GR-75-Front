@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-01</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            width: 800px;
+            height: 500px;
+            background-color: rgb(114, 0, 114);
+            margin: 100px auto;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+
+        }
+
+        header .num1 {
+            background-color: darkorange;
+            width: 200px;
+            height: 200px;
+            ;
+        }
+
+        header .num2 {
+            background-color: rgb(0, 255, 170);
+            width: 100px;
+            height: 100px;
+
+
+        }
+
+        header .num3 {
+            background-color: rgb(0, 98, 255);
+            width: 150px;
+            height: 150px;
+
+            flex-grow: 2;
+        }
+
+        header .num4 {
+            background-color: rgb(255, 0, 221);
+            width: 400px;
+            height: 150px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="num1"> div 1 200*200 </div>
+        <div class="num2"> div 2 100*100 </div>
+        <div class="num3"> div 3 150*150 </div>
+        <div class="num4"> div 4 400*150 </div>
+
+        <!-- 
+        <div class="num1"> div 1 200*200 </div>
+        <div class="num2"> div 2 100*100 </div>
+        <div class="num3"> div 3 150*150 </div> -->
+
+    </header>
+
+
+
+</body>
+
+</html>
