@@ -1,1 +1,1 @@
-do the previous task design using bootstrap 5
+in the last task make 1 section using pure grid css and another section using bootstrp 5 grid
