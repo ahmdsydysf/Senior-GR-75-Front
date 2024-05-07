@@ -117,7 +117,7 @@
 
 // var y = parseInt("y8u0u");
 // var y1 = Number("80u"); // NAN
-var y2 = 66;
+// var y2 = 66;
 // console.log(y2);
 // y2.toString();
 // console.log(y2);
@@ -142,10 +142,111 @@ var y2 = 66;
 // console.log(names[3]);
 // var nouranName = names[3];
 
-var x = 10;
-var y = "10";
+// var x = 10;
+// var y = "10";
 
-// x -= y;// x = x+y
-// x == y // boolean false
-// x === y
-console.log(x !== y); // 11
+// // x -= y;// x = x+y
+// // x == y // boolean false
+// // x === y
+// console.log(x !== y); // 11
+
+// alert("are u sure ?!!!");
+// document.write("welcome");
+// var r = confirm("20");
+// console.log(r);
+
+// function dele(event, btn) {
+//   console.log(btn);
+//   console.log(event);
+//   var r = confirm("are you sure deleting this item ??");
+//   if (r == true) {
+//     btn.parentElement.parentElement.remove();
+//   }
+// }
+
+// function test() {
+//   var r = confirm("are you sure ??");
+//   var elem = document.querySelector("header");
+
+//   if (r == true) {
+//     elem.innerHTML += `<span class='alert alert-info'> test </sapn>`;
+//   } else {
+//     elem.innerHTML += `<span class='alert alert-danger'> test </sapn>`;
+//   }
+// }
+
+// var num = 100.5658;
+
+// console.log(num.toString());
+// console.log((1_000_000).toString());
+// console.log((1_000_000).toString());
+// console.log(num.toFixed(2));
+// console.log(Number("100a"));
+// console.log(parseInt("100a"));
+// console.log(1e6);
+// console.log(Number.isInteger("100"));
+// console.log(Number.isInteger(100.68));
+
+// oop; // object orianted progrMMING
+
+// organize and minimaize
+
+// ahmed
+// mo , nam , em , dat
+
+// mohamed
+// ex , ag , name , phone
+
+// var name = "ahmed";
+
+// var emps = {
+//   namee: "ahmed",
+//   email: "ahmed@gmail.com",
+//   mobile: 100,
+//   address: ["add1", "add2"],
+//   printName: function () {
+//     alert("welcome from emps object");
+//   },
+// };
+// console.log(emps.printName());
+// console.log(emps["printName"]());
+// var myyear = 1990;
+
+// var year = {
+//   1990: "good",
+//   2024: "not bad",
+// };
+// // console.log(year["1990"]);
+// //  console.log(year.1990)
+// console.log(year[myyear]);
+
+// var midterm = {
+//   ahmed: 60,
+//   mohamed: 99,
+// };
+// console.log(midterm);
+// midterm.ahmed = 98;
+// console.log(midterm);
+// midterm.mariam = 1000;
+// console.log(midterm);
+// midterm["nouran"] = 1000;
+// console.log(midterm);
+
+var firstObj = {
+  name: "ahmed",
+  age: 20,
+};
+var scondObj = {
+  name: "mohamed",
+  num: 2222,
+};
+
+var newObject = { ...firstObj, ...scondObj, address: "" };
+newObject = {
+  name: "ahmed",
+  age: 20,
+  name: "mohamed",
+  num: 2222,
+};
+
+console.log(newObject);
