@@ -1,0 +1,3 @@
+1- make agae which generate random PW length taked from input with 2 options 1-number+alpha  2- numbers+alpha+symbols
+
+2- make apost comment element generated when click on button includes delete and edit buttons on every post created  with text on post from textarea
