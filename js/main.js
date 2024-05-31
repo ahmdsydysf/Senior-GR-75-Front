@@ -64,12 +64,19 @@ function showContent() {
 // var x = Math.round(r);
 // console.log(x);
 
-var x = "      my name        ";
-
 // r = x.trim().toUpperCase();
 // r = x.concat(" is Ahmed");
 
 // var myname = x.replace("my", "our");
-var r = x.indexOf()
-console.log(myname);
-console.log(x);
+// index0  length1
+var x = "my name is ahmed";
+
+var r = x.charAt(60);
+
+var r1 = x.indexOf("ahmed");
+var r = x.substring(r1);
+
+// var r = x.length;
+
+// console.log(myname);
+console.log(r);
