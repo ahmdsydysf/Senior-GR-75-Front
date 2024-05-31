@@ -25,24 +25,25 @@
 
 <body>
 
+  <button onclick="createElementPost()">create Element</button>
+
   <div class="container">
     <div class="row">
-      <form action="
-    ">
-        <div class="input-group mb-3">
-          <span class="input-group-text" id="basic-addon1">@</span>
-          <input id="usernameInput" type="text" class="form-control" placeholder="Username" aria-label="Username"
-            aria-describedby="basic-addon1">
-        </div>
-        <div class="input-group mb-3 password">
-          <span class="input-group-text" id="basic-addon1">@</span>
-          <input id="passwordInput" type="password" class="form-control" placeholder="password" aria-label="Username"
-            aria-describedby="basic-addon1">
-          <i class="fa-solid fa-eye" onclick="viewPassword()"></i>
-        </div>
 
-        <button class="btn btn-info">go</button>
-      </form>
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">myPassword</span>
+        <input id="usernameInput" type="text" class="form-control" placeholder="Username" aria-label="Username"
+          aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group mb-3 password">
+        <span class="input-group-text" id="basic-addon1">PassLength</span>
+        <input id="passwordInput" type="text" class="form-control" placeholder="password" aria-label="Username"
+          aria-describedby="basic-addon1">
+        <i class="fa-solid fa-eye" onclick="viewPassword()"></i>
+      </div>
+
+      <button class="btn btn-info" onclick="gen()">go</button>
+
     </div>
   </div>
 
