@@ -289,9 +289,44 @@
 
 // do while
 
-var i = 0;
+// var i = 0;
 
-do {
-  console.log("ahmed sayed");
-  i++;
-} while (i < 5);
+// do {
+//   console.log("ahmed sayed");
+//   i++;
+// } while (i < 5);
+
+// var max = parseInt(prompt("enter max number to guess"));
+
+// while (!max) {
+//   max = parseInt(prompt("enter max number to guess"));
+// }
+
+// var targetNum = Math.round(Math.random() * max);
+
+// var guess = parseInt(prompt("plz enter your guess ?"));
+
+// var attempts = 1;
+
+// while (guess != targetNum) {
+//   attempts++;
+//   if (attempts == 6) {
+//     alert(`Faaaaaaaaaaaaaaaaaail`);
+//     break;
+//   }
+//   if (guess > targetNum) {
+//     guess = parseInt(
+//       prompt(
+//         `your guess is to hight this is your attempt num :: ${attempts - 1}?`
+//       )
+//     );
+//   } else {
+//     guess = parseInt(
+//       prompt(`your guess is to low  your attempt num :: ${attempts - 1}?`)
+//     );
+//   }
+// }
+
+// alert(`your number (${guess}) guess is correct after ${attempts} time`);
+
+// // console.log(max, typeof max);
