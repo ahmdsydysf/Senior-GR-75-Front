@@ -14,7 +14,9 @@
 </head>
 
 <body>
+  <h1>ahmed</h1>
 
+  <!-- da comment ya mohmed -->
   <p>
     <b style="display: none;">Mohamed Salah Hamed Mahrous Ghaly</b> (<a href="/wiki/Arabic_language" class="mw-redirect"
       title="Arabic language">Arabic</a>: <span lang="ar" dir="rtl">محمد صلاح حامد محروس غالي</span>, <style
@@ -44,23 +46,67 @@
         href="#cite_note-6">[6]</a></sup><sup id="cite_ref-7" class="reference"><a href="#cite_note-7">[7]</a></sup><sup
       id="cite_ref-8" class="reference"><a href="#cite_note-8">[8]</a></sup>
   </p>
-  <script>
-    // insertAdjacentElement(  ,  )
-    //const newH2 = document.createElement('h2');
-    //newH2.append('i am new here my name is h2');
+  mazen2
+  <h2>mohamed</h2>
 
-    //const myImg = document.querySelector('img');
-    //myImg.insertAdjacentElement('beforeend', newH2)
+<div class="grandparent">
+  <div class="parent parent-1">parent1</div>
+  <div class="parent parent-2">
+    this is direct text
+    <!-- this is comment in parent 2 -->
+     <span class="child">child</span>
+  </div>
+
+</div>
+
+
+
+  <script>
+    const parents = document.getElementsByClassName('parent');
+    /*  
+    const parents2 = document.querySelector('.parent');
+    const parents3 = document.querySelectorAll('.parent');
+    console.log(parents2);
+    console.log(parents3);
+    */
+    console.log(parents);
+    const grand = document.querySelector('.grandparent');
+    const newParent = document.createElement('div');
+    newParent.classList.add('parent');
+    newParent.append('this is new element');
+    
+    grand.appendChild(newParent);
+    console.log(parents);
+    /*const sel = document.querySelector('.parent-2');
+    console.log(sel);
+    console.log(sel.parentNode);
+    console.log(sel.parentElement);
+    console.log(sel.children);
+    console.log(sel.childNodes);*/
+    // insertAdjacentElement(  ,  )
+    // const newH2 = document.createElement('h2');
+    // newH2.append('i am new here my name is h2');
+
+    // const myImg = document.querySelector('img');
+    // myImg.insertAdjacentElement('beforeend', newH2)
     // beforebegine  beforeend   afterend    afterbegin
 
-    var myP = document.querySelector('p');
-
-    console.log(myP.innerText);
-    console.log(myP.innerHTML);
-    console.log(myP.textContent);
-
-
-
+      /*var myP = document.querySelector('p');
+  
+        console.log(myP.innerText);
+        console.log(myP.innerHTML);
+        console.log(myP.textContent);
+  
+    var r = myP.previousSibling.previousSibling;
+    r.textContent = 'mazen sa7y';
+    console.log(r)
+    console.log(myP.parentElement);
+    console.log(myP.children);
+    console.log(myP.previousSibling.previousSibling);//node
+    console.log(myP.nextSibling);//node
+    console.log(myP.previousElementSibling);//element
+    console.log(myP.nextElementSibling);//element
+  */
   </script>
 
 
